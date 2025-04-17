@@ -2,11 +2,22 @@
 <html>
 <head>
   <title>Test Page</title>
-  <!-- 后续在此插入GTM代码 -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5FC7V7WF');</script>
 </head>
+
+
 <body>
-  <h1>URL参数值：</h1>
-  <p>key1: <span id="key1-value"></span></p>
-  <p>key2: <span id="key2-value"></span></p>
+  <div id="displayParams">
+    <p>Key1: <span id="key1Value"></span></p>
+    <p>Key2: <span id="key2Value"></span></p>
+  </div>
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FC7V7WF"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 </body>
 </html>
